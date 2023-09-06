@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.contenedor{
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgb(88, 86, 86);
+    width:400px;
+    height:600px;
+    border-radius: 15px;
+}
+.operatoria{
+    padding:5px;
+    margin-bottom:0;
+    margin-top:30px;
+    background-color: black;
+}
+.resultadoOperatoria{
+    padding:5px;
+    margin-bottom:15px;
+    margin-top:0;
+    background-color: black;
+   
+}
+
+.boton{
+    padding:30px;
+    margin: 5px;
+    border-radius: 125px;
+    color: brown;
+}
+.oper{
+    font-size: 20px;
+    color: rgb(218, 18, 18);
+    background-color: black;
+}
+.numeros{
+    color: aliceblue;
+    display: flex;
+    align-items: start;
+}
+.resultado{
+    color: aliceblue;
+    display: flex;
+    justify-content: end;
+}
+.reiniciar{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    background-color: black;
+    color: brown;
+}
